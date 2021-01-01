@@ -9,8 +9,7 @@
  */
 
 function wpblog_add_cookie_popup() {
-    $popup = file_get_contents(plugin_dir_path(__FILE__) . '/' .'popup.html');
-    echo $popup;
+    require_once(plugin_dir_path(__FILE__) . '/' .'popup.php');
 }
 
 function wpblog_popup_add_css() {
