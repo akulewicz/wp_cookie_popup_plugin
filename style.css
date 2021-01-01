@@ -1,0 +1,34 @@
+
+.cookie-popup {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #003C66;
+    padding: 5px;
+}
+
+.cookie-popup__content {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.cookie-popup__text {
+    font-size: 14px;
+    color: white;
+}
+
+.cookie-popup__button {
+    padding: 10px 15px;
+    border: 1px solid white;
+    font-size: 14px;
+    border-radius: 25px;
+    background: #003C66;
+    color: white;
+    cursor: pointer;
+}
+
+.cookie-popup__button:hover {
+    background: #002D4D;
+}
