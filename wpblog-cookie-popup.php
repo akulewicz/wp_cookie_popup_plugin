@@ -3,7 +3,7 @@
 /**
  * Plugin Name: WP Cookie Popup Creator
  * Description: Simple cookie popup plugin for Wordpress pages
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: Arkadiusz Kulewicz
  * License: GPL v2.0 or later
  */
