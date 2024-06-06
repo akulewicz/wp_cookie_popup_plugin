@@ -2,34 +2,36 @@
     display: none;
     z-index: 10000;
     position: fixed;
-    bottom: 0;
+    bottom: 40px;
+    left: 40px;
+    max-width: 440px;
     width: 100%;
-    background: #003C66;
-    padding: 5px;
+    
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    padding: 25px;
+    border-radius: 6px;
+    background-color: #fff;
 }
 
-.cookie-popup__content {
-    align-items: center;
-    display: flex;
-    margin: 0 auto;
-    max-width: 1440px;
+@media (max-width: 567px) {
+    .cookie-popup {
+        bottom: 0;
+        left:0;
+        padding: 20px;
+    }
+}
+
+.cookie-popup__title {
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #242424;
 }
 
 .cookie-popup__text {
     font-size: 14px;
-    color: white;
+    color: #50575e;
+    line-height: 1.6;
 }
 
-.cookie-popup__button {
-    padding: 10px 15px;
-    border: 1px solid white;
-    font-size: 14px;
-    border-radius: 25px;
-    background: #003C66;
-    color: white;
-    cursor: pointer;
-}
 
-.cookie-popup__button:hover {
-    background: #002D4D;
-}

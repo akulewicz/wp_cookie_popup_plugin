@@ -1,8 +1,12 @@
 <section class="cookie-popup">
         <div class="cookie-popup__content">
-            <p class="cookie-popup__text">
-            W celu świadczenia usług na najwyższym poziomie stosujemy pliki cookies. Korzystanie z naszej witryny oznacza, że będą one zamieszczane w Państwa urządzeniu. W każdym momencie można dokonać zmiany ustawień Państwa przeglądarki. Zobacz politykę cookies.
+            <p class="cookie-popup__title">
+                Chronimy Twoją prywatność
             </p>
-            <button class="cookie-popup__button">Zamknij</button>
+            <p class="cookie-popup__text">
+            W celu świadczenia usług na najwyższym poziomie stosujemy pliki cookies. Korzystanie z naszej witryny oznacza, że będą one zamieszczane w Twoim urządzeniu. W każdym momencie można dokonać zmiany ustawień Twojej przeglądarki. Zobacz politykę cookies.
+            </p>
+            <button class="cookie-popup__button button button--blue-border ">Zamknij</button>
+            <a class="button button--blue" href="<?php echo site_url('/polityka-prywatnosci/'); ?>">Polityka prywatności</a>
         </div>
 </section>
