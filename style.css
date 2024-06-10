@@ -32,6 +32,22 @@
     font-size: 14px;
     color: #50575e;
     line-height: 1.6;
+}   
+
+.cookie-popup__button {
+    display: inline-block;
+    border: 2px solid #0175ae;
+    background-color: #0175ae;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s;
+    word-spacing: 2px;
+    cursor: pointer;
 }
 
-
+.cookie-popup__button:hover {
+    background-color: #fff;
+    color: #0175ae;
+}
